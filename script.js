@@ -9,9 +9,8 @@ let answerScreenValue = [];
 clearBtn.addEventListener("click", () => {
     answerScreenValue = [''];
     answerArea.innerHTML = 0;
-    //need to clarify this.
-    // currentInput.className = 'currentInput';
-    // answerArea.className = 'answerArea';
+    currentInput.className = 'currentInput';
+    answerArea.className = 'answerArea';
     answerArea.style.color = "rgba(150, 150, 150, 0.87)";
 })
 
